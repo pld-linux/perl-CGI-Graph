@@ -4,8 +4,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	CGI
 %define	pnam	Graph
-Summary:	CGI::Graph - Create interactive CGI-based graphs
-Summary(pl):	Modu³ CGI::Graph - tworz±cy interaktywne wykresy oparte na CGI
+Summary:	CGI::Graph - create interactive CGI-based graphs
+Summary(pl):	CGI::Graph - tworzenie interaktywnych wykresów w oparciu o CGI
 Name:		perl-CGI-Graph
 Version:	0.93
 Release:	3
