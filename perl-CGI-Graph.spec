@@ -8,7 +8,7 @@ Summary:	CGI::Graph - Create interactive CGI-based graphs
 Summary(pl):	Modu³ CGI::Graph - tworz±cy interaktywne wykresy oparte na CGI
 Name:		perl-CGI-Graph
 Version:	0.93
-Release:	2
+Release:	3
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}%{pnam}-%{version}.tar.gz
@@ -19,7 +19,7 @@ BuildRequires:	perl-Data-Table
 BuildRequires:	perl-GD
 BuildRequires:	perl-GD-Graph
 %endif
-BuildRequires:	rpm-perlprov >= 3.0.3-26
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
