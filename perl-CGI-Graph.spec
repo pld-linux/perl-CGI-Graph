@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	CGI
-%define	pnam	Graph
+%define		pdir	CGI
+%define		pnam	Graph
 Summary:	CGI::Graph - create interactive CGI-based graphs
 Summary(pl):	CGI::Graph - tworzenie interaktywnych wykresów w oparciu o CGI
 Name:		perl-CGI-Graph
