@@ -6,7 +6,7 @@
 %define		pdir	CGI
 %define		pnam	Graph
 Summary:	CGI::Graph - create interactive CGI-based graphs
-Summary(pl):	CGI::Graph - tworzenie interaktywnych wykresów w oparciu o CGI
+Summary(pl.UTF-8):   CGI::Graph - tworzenie interaktywnych wykresÃ³w w oparciu o CGI
 Name:		perl-CGI-Graph
 Version:	0.93
 Release:	4
@@ -32,11 +32,11 @@ spreadsheet data using scatter plots, bar plots, histograms, etc. It
 provides features for easy interactions such as panning, zooming,
 element selection, and axis selection.
 
-%description -l pl
-Ten modu³ tworzy wykresy CGI, pozwalaj±ce na wizualizacjê danych z
-arkuszy kalkulacyjncyh przy u¿yciu wykresów rozproszonych, s³upkowych,
-histogramów itp. Daje mo¿liwo¶æ ³atwej interakcji takiej jak
-przesuwanie, powiêkszanie, wybieranie elementów i osi.
+%description -l pl.UTF-8
+Ten moduÅ‚ tworzy wykresy CGI, pozwalajÄ…ce na wizualizacjÄ™ danych z
+arkuszy kalkulacyjncyh przy uÅ¼yciu wykresÃ³w rozproszonych, sÅ‚upkowych,
+histogramÃ³w itp. Daje moÅ¼liwoÅ›Ä‡ Å‚atwej interakcji takiej jak
+przesuwanie, powiÄ™kszanie, wybieranie elementÃ³w i osi.
 
 %prep
 %setup -q -n %{pdir}%{pnam}-%{version}
