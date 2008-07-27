@@ -9,7 +9,7 @@ Summary:	CGI::Graph - create interactive CGI-based graphs
 Summary(pl.UTF-8):	CGI::Graph - tworzenie interaktywnych wykresów w oparciu o CGI
 Name:		perl-CGI-Graph
 Version:	0.93
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
