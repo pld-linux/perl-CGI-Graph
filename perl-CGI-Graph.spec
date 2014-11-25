@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	CGI
 %define		pnam	Graph
+%include	/usr/lib/rpm/macros.perl
 Summary:	CGI::Graph - create interactive CGI-based graphs
 Summary(pl.UTF-8):	CGI::Graph - tworzenie interaktywnych wykresów w oparciu o CGI
 Name:		perl-CGI-Graph
@@ -15,14 +15,15 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}%{pnam}-%{version}.tar.gz
 # Source0-md5:	e18432d8462620a390ac8f686977ad43
+URL:		http://search.cpan.org/dist/CGI-Graph/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-CGI
 BuildRequires:	perl-Data-Table
 BuildRequires:	perl-GD
 BuildRequires:	perl-GD-Graph
 %endif
-BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
